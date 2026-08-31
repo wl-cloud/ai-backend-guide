@@ -1,0 +1,16 @@
+{
+  "name": "ai-backend-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 后端入门手册 - 面向零基础新手的 AI 后端与大模型应用开发知识站",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}

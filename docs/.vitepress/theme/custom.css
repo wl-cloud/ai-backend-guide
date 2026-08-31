@@ -1,0 +1,396 @@
+/* ==========================================================================
+   AI 后端入门手册 · 自定义主题
+   设计语言：科技感 + Nokia Metro 卡片（扁平瓷砖）+ 少量撞色
+   主色：靛蓝 #4f46e5  撞色：青 #0891b2 / 琥珀 #d97706
+   ========================================================================== */
+
+/* ---------- 品牌色与变量 ---------- */
+:root {
+  /* 主色：靛蓝 */
+  --vp-c-brand-1: #4f46e5;
+  --vp-c-brand-2: #6366f1;
+  --vp-c-brand-3: #818cf8;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);
+
+  /* 文字 */
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #475569;
+  --vp-c-text-3: #64748b;
+
+  /* 背景 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-soft: #f1f5f9;
+
+  /* 撞色 */
+  --acc-cyan: #0891b2;
+  --acc-amber: #d97706;
+
+  --vp-font-family-base: -apple-system, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'SFMono-Regular', 'Consolas',
+    'Liberation Mono', monospace;
+}
+
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #1e293b;
+  --vp-c-bg-soft: #172033;
+  --vp-c-text-1: #e2e8f0;
+  --vp-c-text-2: #cbd5e1;
+  --vp-c-text-3: #94a3b8;
+}
+
+/* ---------- 内容区背景：极淡的科技纹理 ---------- */
+.vp-doc {
+  background: transparent;
+}
+
+/* 正文标题：科技感左竖线 + 主色 */
+.vp-doc h1 {
+  position: relative;
+  padding-left: 16px;
+  background: linear-gradient(90deg, #4f46e5, #0891b2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vp-doc h1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 5px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #4f46e5, #0891b2);
+}
+.vp-doc h2 {
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 8px;
+}
+.vp-doc h2::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 3px;
+  background: #4f46e5;
+}
+.vp-doc h3 {
+  color: #4f46e5;
+}
+
+/* ---------- 链接 ---------- */
+.vp-doc a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.vp-doc a:hover {
+  color: #0891b2;
+  border-bottom-color: #0891b2;
+}
+
+/* ---------- 按钮：胶囊圆角 ---------- */
+.VPButton {
+  border-radius: 999px;
+}
+
+/* ---------- 提示框：Metro 瓷砖风格 ---------- */
+.vp-doc .custom-block {
+  border-radius: 16px;
+  border: none;
+  border-left: 5px solid;
+  padding: 16px 20px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+.vp-doc .custom-block.tip {
+  background: rgba(99, 102, 241, 0.08);
+  border-left-color: #4f46e5;
+}
+.vp-doc .custom-block.info {
+  background: rgba(8, 145, 178, 0.08);
+  border-left-color: #0891b2;
+}
+.vp-doc .custom-block.warning {
+  background: rgba(217, 119, 6, 0.10);
+  border-left-color: #d97706;
+}
+.vp-doc .custom-block.danger {
+  background: rgba(225, 29, 72, 0.08);
+  border-left-color: #e11d48;
+}
+.vp-doc .custom-block-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* ---------- 代码块 ---------- */
+.vp-doc div[class*='language-'] {
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: #0f172a;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+.vp-doc div[class*='language-']::before {
+  color: #94a3b8;
+}
+
+/* ---------- 表格 ---------- */
+.vp-doc table {
+  border-radius: 14px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.vp-doc th {
+  background: linear-gradient(90deg, #4f46e5, #0891b2);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+.vp-doc tr:nth-child(even) {
+  background: #f8fafc;
+}
+.vp-doc td {
+  border: none;
+  border-bottom: 1px solid #eef2f7;
+}
+
+/* ---------- 首页 Hero：渐变 + 科技感 ---------- */
+.VPHero {
+  background:
+    radial-gradient(1000px 400px at 20% 0%, rgba(79, 70, 229, 0.10), transparent),
+    radial-gradient(800px 400px at 80% 20%, rgba(8, 145, 178, 0.10), transparent);
+}
+.VPHero .name {
+  background: linear-gradient(90deg, #4f46e5, #0891b2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.VPHero .text {
+  color: #1e293b;
+}
+
+/* 首页特性卡片：Metro 瓷砖 */
+.VPFeature {
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.VPFeature:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+.VPFeature .icon {
+  background: linear-gradient(135deg, #4f46e5, #0891b2);
+  border-radius: 14px;
+}
+
+/* ==========================================================================
+   术语分类卡片网格（Metro 瓷砖）
+   ========================================================================== */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+  margin: 20px 0;
+}
+.cat-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-top: 5px solid var(--acc, #4f46e5);
+  border-radius: 18px;
+  padding: 18px 20px 14px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+.cat-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--acc, #4f46e5);
+  border: none;
+}
+.cat-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.cat-card h3 a:hover {
+  text-decoration: underline;
+}
+.cat-card .terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+}
+.cat-card .terms a {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: #334155;
+  background: #f1f5f9;
+  border: none;
+  transition: all 0.2s;
+}
+.cat-card .terms a:hover {
+  color: #fff;
+  background: var(--acc, #4f46e5);
+}
+
+/* ==========================================================================
+   方法论卡片
+   ========================================================================== */
+.guide-card {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid var(--acc, #0891b2);
+  border-radius: 18px;
+  padding: 18px 22px;
+  margin: 16px 0;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.guide-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
+}
+.guide-card h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--acc, #0891b2);
+  border: none;
+}
+.guide-card p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ==========================================================================
+   思维导图（首页知识地图）
+   ========================================================================== */
+.mindmap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 24px 0;
+  padding: 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+}
+.mm-center {
+  flex: 0 0 auto;
+  padding: 22px 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #4f46e5, #0891b2);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
+}
+.mm-branches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  flex: 1;
+}
+.mm-branch {
+  display: block;
+  background: #fff;
+  border-left: 4px solid var(--c, #4f46e5);
+  border-radius: 12px;
+  padding: 10px 12px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.mm-branch:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.10);
+}
+.mm-branch .mm-label {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--c, #4f46e5);
+}
+.mm-branch .mm-children {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 4px;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   词条导航按钮（分类模块页）
+   ========================================================================== */
+.term-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.term-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-bottom: 3px solid var(--acc, #4f46e5);
+  color: #1e293b;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
+}
+.term-btn .cn {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.term-btn .en {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.65;
+  line-height: 1.2;
+}
+.term-btn:hover {
+  background: var(--acc, #4f46e5);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+}
+.term-btn:hover .en {
+  opacity: 0.9;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 640px) {
+  .cat-grid {
+    grid-template-columns: 1fr;
+  }
+  .mindmap {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .mm-branches {
+    grid-template-columns: 1fr;
+  }
+}
