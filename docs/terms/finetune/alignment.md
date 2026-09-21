@@ -43,4 +43,5 @@ SFT 像**岗前培训**（拿标准答案教他正确做法）；RLHF 像**绩�
 
 ## 延伸阅读
 
-- OpenAI：InstructGPT / RLHF 论文
+- [InstructGPT 论文（SFT + RLHF 对齐）](https://arxiv.org/abs/2203.02155)
+- [RLHF 原论文：从人类偏好中学习](https://arxiv.org/abs/1706.03741)

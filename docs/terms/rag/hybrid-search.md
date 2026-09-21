@@ -45,4 +45,5 @@ merged = reciprocal_rank_fusion([bm25_hits, vector_hits])  # RRF 融合
 
 ## 延伸阅读
 
-- Pinecone：Hybrid Search 指南
+- [RAG 综述：Retrieval-Augmented Generation for LLMs](https://arxiv.org/abs/2312.10997)
+- [Qdrant 向量数据库文档](https://qdrant.tech/documentation/)

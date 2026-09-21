@@ -44,4 +44,5 @@ model = get_peft_model(base_model, config)   # 只有 LoRA 部分可训练
 
 ## 延伸阅读
 
-- 论文：LoRA: Low-Rank Adaptation of Large Language Models
+- [LoRA 原论文：Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
+- [InstructGPT 论文（SFT + RLHF 对齐）](https://arxiv.org/abs/2203.02155)

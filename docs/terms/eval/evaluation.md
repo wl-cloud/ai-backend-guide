@@ -46,4 +46,5 @@ print(f"平均分：{sum(scores) / len(scores):.2f}")
 
 ## 延伸阅读
 
-- OpenAI：Evals 工具与指南
+- [RAGAS：RAG 评测框架文档](https://docs.ragas.io/)
+- [TruthfulQA：衡量模型回答真实性](https://arxiv.org/abs/2109.07958)

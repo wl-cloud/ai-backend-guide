@@ -48,4 +48,5 @@ return answer
 
 ## 延伸阅读
 
-- GPTCache、Redis 语义缓存方案文档
+- [GPTCache：语义缓存开源实现](https://github.com/zilliztech/GPTCache)
+- [LiteLLM：多模型统一接入与路由](https://docs.litellm.ai/)

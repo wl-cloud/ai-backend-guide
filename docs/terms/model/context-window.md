@@ -47,4 +47,5 @@ if total_tokens > max_window * 0.9:
 
 ## 延伸阅读
 
-- OpenAI：Models 的 Context Window 说明
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)
+- [大语言模型综述（A Survey of LLMs）](https://arxiv.org/abs/2303.18223)

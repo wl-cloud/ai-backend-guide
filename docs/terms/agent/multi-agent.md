@@ -47,4 +47,5 @@ final = writer_agent.revise(draft, review)            # 修改
 
 ## 延伸阅读
 
-- 微软 AutoGen、LangGraph 多智能体文档
+- [微软 AutoGen 多智能体框架](https://microsoft.github.io/autogen/stable/)
+- [LangGraph 官方文档（图式编排）](https://langchain-ai.github.io/langgraph/)

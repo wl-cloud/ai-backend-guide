@@ -50,4 +50,5 @@ for chunk in stream:
 
 ## 延伸阅读
 
-- MDN：Server-Sent Events
+- [MDN：Server-Sent Events 教程](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
+- [FastAPI 官方文档](https://fastapi.tiangolo.com/)

@@ -46,4 +46,5 @@ def estimate_cost(model, usage):
 
 ## 延伸阅读
 
-- 各厂商 Pricing 页 + 成本优化最佳实践
+- [Anthropic 模型定价](https://www.anthropic.com/pricing)
+- [LiteLLM：多模型统一接入与路由](https://docs.litellm.ai/)

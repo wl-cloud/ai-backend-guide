@@ -46,4 +46,6 @@ def check_and_alert(metrics):
 
 ## 延伸阅读
 
-- Prometheus / Grafana、Datadog 监控实践
+- [Langfuse：LLM 可观测性平台文档](https://langfuse.com/docs)
+- [Prometheus 官方文档](https://prometheus.io/docs/introduction/overview/)
+- [Grafana 官方文档](https://grafana.com/docs/)

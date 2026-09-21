@@ -51,4 +51,5 @@ messages = [
 
 ## 延伸阅读
 
-- Anthropic：System Prompts 最佳实践
+- [Anthropic 提示工程指南](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)

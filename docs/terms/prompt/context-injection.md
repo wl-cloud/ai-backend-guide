@@ -50,4 +50,5 @@ def build_prompt(question, docs, history):
 
 ## 延伸阅读
 
-- LangChain：Prompt 上下文组装实践
+- [RAG 原论文：Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401)
+- [LangChain：RAG 实战教程](https://python.langchain.com/docs/tutorials/rag/)

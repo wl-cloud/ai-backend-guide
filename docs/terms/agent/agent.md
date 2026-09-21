@@ -55,4 +55,6 @@ resp = client.chat.completions.create(model="gpt-4o-mini",
 
 ## 延伸阅读
 
-- 论文：ReAct: Synergizing Reasoning and Acting in Language Models
+- [ReAct 原论文：Reasoning + Acting](https://arxiv.org/abs/2210.03629)
+- [Lilian Weng：LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+- [MCP 官方文档：Model Context Protocol](https://modelcontextprotocol.io/introduction)

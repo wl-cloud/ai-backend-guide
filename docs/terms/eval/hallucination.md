@@ -46,4 +46,6 @@ messages = [
 
 ## 延伸阅读
 
-- OpenAI：关于幻觉与事实性的说明
+- [大模型幻觉综述（Survey on Hallucination）](https://arxiv.org/abs/2311.05232)
+- [TruthfulQA：衡量模型回答真实性](https://arxiv.org/abs/2109.07958)
+- [幻觉综述：A Survey of Hallucination in NLG](https://arxiv.org/abs/2202.03629)

@@ -50,4 +50,5 @@ chunks = splitter.split_text(document)
 
 ## 延伸阅读
 
-- LangChain：Text Splitters 文档
+- [LangChain：RAG 实战教程](https://python.langchain.com/docs/tutorials/rag/)
+- [RAG 综述：Retrieval-Augmented Generation for LLMs](https://arxiv.org/abs/2312.10997)

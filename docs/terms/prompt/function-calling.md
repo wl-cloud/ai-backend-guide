@@ -50,4 +50,6 @@ tc = resp.choices[0].message.tool_calls  # 模型请求调用 get_weather(city="
 
 ## 延伸阅读
 
-- OpenAI：Function calling 指南
+- [Toolformer：让模型学会调用工具](https://arxiv.org/abs/2302.04761)
+- [MCP 官方文档：Model Context Protocol](https://modelcontextprotocol.io/introduction)
+- [LangChain 官方文档](https://python.langchain.com/docs/introduction/)

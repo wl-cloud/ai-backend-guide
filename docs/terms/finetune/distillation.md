@@ -43,4 +43,5 @@ student_model.train(dataset, labels=teacher_outputs) # 学生模仿
 
 ## 延伸阅读
 
-- Hugging Face：知识蒸馏（Knowledge Distillation）教程
+- [知识蒸馏原论文（Hinton 等）](https://arxiv.org/abs/1503.02531)
+- [InstructGPT 论文（SFT + RLHF 对齐）](https://arxiv.org/abs/2203.02155)

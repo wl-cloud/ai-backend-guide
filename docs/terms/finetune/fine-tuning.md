@@ -53,5 +53,5 @@ resp = client.chat.completions.create(model="ft:gpt-4o-mini:xxx",
 
 ## 延伸阅读
 
-- OpenAI：Fine-tuning 文档
-- 论文：LoRA: Low-Rank Adaptation of Large Language Models
+- [LoRA 原论文：Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
+- [InstructGPT 论文（SFT + RLHF 对齐）](https://arxiv.org/abs/2203.02155)

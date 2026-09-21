@@ -50,4 +50,5 @@ print(len(enc.encode(text)))   # 输出 token 数量
 
 ## 延伸阅读
 
-- OpenAI：Tokenizer 在线工具与文档
+- [tiktoken：OpenAI 官方分词库](https://github.com/openai/tiktoken)
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)

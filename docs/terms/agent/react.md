@@ -49,4 +49,5 @@ while not done:
 
 ## 延伸阅读
 
-- 论文：ReAct: Synergizing Reasoning and Acting in Language Models
+- [ReAct 原论文：Reasoning + Acting](https://arxiv.org/abs/2210.03629)
+- [LangGraph 官方文档（图式编排）](https://langchain-ai.github.io/langgraph/)

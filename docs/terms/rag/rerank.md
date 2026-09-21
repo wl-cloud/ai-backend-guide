@@ -46,4 +46,5 @@ context = "\n".join(r.text for r in reranked)
 
 ## 延伸阅读
 
-- Cohere：Rerank 文档
+- [Cohere Rerank 重排说明](https://docs.cohere.com/docs/rerank-overview)
+- [RAG 综述：Retrieval-Augmented Generation for LLMs](https://arxiv.org/abs/2312.10997)

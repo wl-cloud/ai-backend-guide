@@ -48,4 +48,5 @@ def add_document(doc):
 
 ## 延伸阅读
 
-- 各 RAG 框架（LlamaIndex / LangChain）的知识库构建文档
+- [LangChain：RAG 实战教程](https://python.langchain.com/docs/tutorials/rag/)
+- [RAG 原论文：Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401)

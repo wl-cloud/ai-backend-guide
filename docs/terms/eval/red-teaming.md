@@ -50,4 +50,5 @@ for p in attack_prompts:
 
 ## 延伸阅读
 
-- Anthropic：Red Teaming 实践
+- [OWASP：大模型应用安全 Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [NVIDIA NeMo Guardrails 文档](https://docs.nvidia.com/nemo/guardrails/)

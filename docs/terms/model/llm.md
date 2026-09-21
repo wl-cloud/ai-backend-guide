@@ -50,5 +50,6 @@ print(resp.choices[0].message.content)
 
 ## 延伸阅读
 
-- OpenAI 官方文档：Models 概述
-- 斯坦福 CS324：大语言模型课程
+- [Attention Is All You Need（Transformer 原论文）](https://arxiv.org/abs/1706.03762)
+- [The Illustrated Transformer（图文详解）](https://jalammar.github.io/illustrated-transformer/)
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)

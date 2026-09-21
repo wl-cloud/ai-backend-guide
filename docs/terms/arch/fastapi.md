@@ -53,4 +53,5 @@ async def chat(payload: dict):
 
 ## 延伸阅读
 
-- FastAPI 官方文档
+- [FastAPI 官方文档](https://fastapi.tiangolo.com/)
+- [SlowAPI：FastAPI 限流库文档](https://slowapi.readthedocs.io/)

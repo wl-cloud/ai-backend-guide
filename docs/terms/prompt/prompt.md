@@ -46,4 +46,5 @@ resp = client.chat.completions.create(model="gpt-4o-mini", messages=messages)
 
 ## 延伸阅读
 
-- OpenAI：Prompt Engineering 指南
+- [Prompt Engineering Guide（提示工程指南）](https://www.promptingguide.ai/)
+- [Anthropic 提示工程指南](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)

@@ -50,4 +50,6 @@ log({
 
 ## 延伸阅读
 
-- Langfuse / LangSmith / OpenTelemetry 文档
+- [OpenTelemetry 官方文档](https://opentelemetry.io/docs/)
+- [Langfuse：LLM 可观测性平台文档](https://langfuse.com/docs)
+- [Grafana 官方文档](https://grafana.com/docs/)

@@ -56,4 +56,5 @@ resp = client.chat.completions.create(
 
 ## 延伸阅读
 
-- OpenAI：Structured Outputs 文档
+- [LangChain：结构化输出指南](https://python.langchain.com/docs/how_to/structured_output/)
+- [LangChain 官方文档](https://python.langchain.com/docs/introduction/)

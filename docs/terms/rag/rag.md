@@ -66,4 +66,6 @@ resp = client.chat.completions.create(model="gpt-4o-mini",
 
 ## 延伸阅读
 
-- 论文：Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+- [RAG 原论文：Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401)
+- [RAG 综述：Retrieval-Augmented Generation for LLMs](https://arxiv.org/abs/2312.10997)
+- [LangChain：RAG 实战教程](https://python.langchain.com/docs/tutorials/rag/)

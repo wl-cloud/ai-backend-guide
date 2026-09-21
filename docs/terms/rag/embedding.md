@@ -47,4 +47,5 @@ print(len(vector))                # 维度，如 1536
 
 ## 延伸阅读
 
-- OpenAI：Embeddings 文档
+- [Sentence-BERT：句向量原论文](https://arxiv.org/abs/1908.10084)
+- [DPR：稠密向量检索原论文](https://arxiv.org/abs/2004.04906)

@@ -48,4 +48,5 @@ resp = client.chat.completions.create(model=model, messages=[...])
 
 ## 延伸阅读
 
-- 各厂商模型路由 / 语义路由实践
+- [LiteLLM：多模型统一接入与路由](https://docs.litellm.ai/)
+- [LLMOps 综述（LLMOps: A Survey）](https://arxiv.org/abs/2407.12797)

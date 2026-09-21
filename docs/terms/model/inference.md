@@ -48,4 +48,5 @@ print(f"首包延迟约 {latency:.2f}s，输出：{resp.choices[0].message.conte
 
 ## 延伸阅读
 
-- NVIDIA：什么是 AI Inference
+- [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)

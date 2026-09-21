@@ -50,4 +50,5 @@ resp = client.chat.completions.create(model="gpt-4o-mini",
 
 ## 延伸阅读
 
-- OpenAI：Few-shot prompting 指南
+- [GPT-3 原论文（少样本学习的奠基）](https://arxiv.org/abs/2005.14165)
+- [Prompt Engineering Guide（提示工程指南）](https://www.promptingguide.ai/)

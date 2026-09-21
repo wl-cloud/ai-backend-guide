@@ -52,4 +52,5 @@ def chat(payload: dict, authorization: str = Header(None)):
 
 ## 延伸阅读
 
-- Cloudflare：什么是 API Gateway
+- [FastAPI 官方文档](https://fastapi.tiangolo.com/)
+- [NGINX：HTTP 负载均衡指南](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/)

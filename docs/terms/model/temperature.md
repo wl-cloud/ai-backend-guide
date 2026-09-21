@@ -45,4 +45,5 @@ resp = client.chat.completions.create(
 
 ## 延伸阅读
 
-- OpenAI：Chat Completions API 参数说明
+- [Anthropic 提示工程指南](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Prompt Engineering Guide（提示工程指南）](https://www.promptingguide.ai/)

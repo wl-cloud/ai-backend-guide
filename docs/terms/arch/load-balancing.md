@@ -48,4 +48,5 @@ def gray_route(user_id):
 
 ## 延伸阅读
 
-- NGINX：负载均衡文档
+- [NGINX：HTTP 负载均衡指南](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/)
+- [LiteLLM：多模型统一接入与路由](https://docs.litellm.ai/)

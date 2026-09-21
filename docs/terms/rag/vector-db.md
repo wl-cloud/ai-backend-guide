@@ -47,4 +47,6 @@ res = col.query(query_embeddings=[qvec], n_results=3)   # 返回最相似的 3 �
 
 ## 延伸阅读
 
-- 各向量数据库官方文档（Milvus / Qdrant / Chroma）
+- [Qdrant 向量数据库文档](https://qdrant.tech/documentation/)
+- [Chroma 向量数据库文档](https://docs.trychroma.com/)
+- [FAISS：Facebook 向量检索库](https://github.com/facebookresearch/faiss)

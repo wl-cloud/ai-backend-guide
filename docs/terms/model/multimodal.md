@@ -55,4 +55,5 @@ resp = client.chat.completions.create(
 
 ## 延伸阅读
 
-- OpenAI：Vision / GPT-4o 能力说明
+- [CLIP：多模态图文对齐原论文](https://arxiv.org/abs/2103.00020)
+- [GPT-4 技术报告](https://arxiv.org/abs/2303.08774)

@@ -46,4 +46,5 @@ async with stdio_client(server_params) as (read, write):
 
 ## 延伸阅读
 
-- Model Context Protocol 官方文档（modelcontextprotocol.io）
+- [MCP 官方文档：Model Context Protocol](https://modelcontextprotocol.io/introduction)
+- [Anthropic 官方文档](https://docs.anthropic.com/en/docs/welcome)

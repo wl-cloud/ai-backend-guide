@@ -46,4 +46,6 @@ def chat(user_input):
 
 ## 延伸阅读
 
-- NVIDIA NeMo Guardrails、Guardrails AI 文档
+- [NVIDIA NeMo Guardrails 文档](https://docs.nvidia.com/nemo/guardrails/)
+- [Guardrails AI 文档](https://www.guardrailsai.com/docs)
+- [OWASP：大模型应用安全 Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)

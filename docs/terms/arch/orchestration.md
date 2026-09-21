@@ -46,4 +46,5 @@ graph.add_conditional_edges("retrieve", lambda s: "answer" if s.docs else "refus
 
 ## 延伸阅读
 
-- LangChain、LangGraph、Dify 官方文档
+- [LangChain 官方文档](https://python.langchain.com/docs/introduction/)
+- [LangGraph 官方文档（图式编排）](https://langchain-ai.github.io/langgraph/)

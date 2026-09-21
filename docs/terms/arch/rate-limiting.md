@@ -48,4 +48,5 @@ def chat(): ...
 
 ## 延伸阅读
 
-- Cloudflare：Rate Limiting 文档
+- [SlowAPI：FastAPI 限流库文档](https://slowapi.readthedocs.io/)
+- [NGINX：HTTP 负载均衡指南](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/)

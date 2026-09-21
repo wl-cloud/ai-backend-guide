@@ -48,4 +48,5 @@ log_metrics({"model": model, "latency": latency, "tokens": tokens,
 
 ## 延伸阅读
 
-- a16z：Emerging Architectures for LLM Applications
+- [LLMOps 综述（LLMOps: A Survey）](https://arxiv.org/abs/2407.12797)
+- [Langfuse：LLM 可观测性平台文档](https://langfuse.com/docs)

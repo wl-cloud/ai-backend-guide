@@ -46,4 +46,5 @@ memory_store.add(user_id, "用户偏好简洁回答", embed("用户偏好简洁�
 
 ## 延伸阅读
 
-- LangChain：Memory 模块文档
+- [Lilian Weng：LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+- [LangGraph 官方文档（图式编排）](https://langchain-ai.github.io/langgraph/)
